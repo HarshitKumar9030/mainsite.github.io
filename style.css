@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #10002b;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.animated-block {
+  margin-bottom: 50px;
+}
+.animated-block #nut,
+.animated-block #wrench {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: block;
+  max-width: 300px;
+  margin-bottom: 60px;
+  font: 30px "Raleway", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-link {
+  font: 24px "Open Sans", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
